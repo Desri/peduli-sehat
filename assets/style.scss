@@ -1,0 +1,30 @@
+$color-white: #ffffff;
+$color-primary: #ededfa;
+$smooth-color: #7E7EDA;
+
+$font-color: #616161;
+$blue-color: #27aae1;
+$green-color: #13ce66;
+$red-color: #ff0000;
+$grey-color: #969696;
+$white-color: #969696;
+$black-color: #222222;
+$bg-search: #ffffff;
+$bg-hover: #fbfbfb;
+$header-color: #e6b707;
+
+
+// Media Query For Mobile Screen
+//$small-phone: "screen and (min-width : 320px) and (max-width : 480px)";
+$portrait: "320px";
+$landscape: "480px";
+
+//COMPONENT
+@import 'components/header.scss';
+@import 'components/banner.scss';
+@import 'components/footer.scss';
+@import 'components/search.scss';
+@import 'components/modalFilter.scss';
+@import 'components/global.scss';
+@import 'components/list.scss';
+@import 'components/days.scss';

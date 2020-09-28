@@ -1,0 +1,48 @@
+
+{
+  "success":true,
+  "data":[
+    {
+      "id": 1,
+      "name": "Senin",
+      "name_formated": "Sen",
+      "time_formated": "04:26"
+    },
+    {
+      "id": 2,
+      "name": "Selasa",
+      "name_formated": "Sel",
+      "time_formated": "05:43"
+    },
+    {
+      "id": 3,
+      "name": "Rabu",
+      "name_formated": "Rab",
+      "time_formated": "11:46"
+    },
+    {
+      "id": 4,
+      "name": "Kamis",
+      "name_formated": "Kam",
+      "time_formated": "14:57"
+    },
+    {
+      "id": 5,
+      "name": "Jumat",
+      "name_formated": "Jum",
+      "time_formated": "17:49"
+    },
+    {
+      "id": 6,
+      "name": "Sabtu",
+      "name_formated": "Sab",
+      "time_formated": "18:58"
+    },
+    {
+      "id": 7,
+      "name": "Minggu",
+      "name_formated": "Min",
+      "time_formated": "18:58"
+    }
+  ]
+}

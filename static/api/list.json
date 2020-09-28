@@ -1,0 +1,36 @@
+
+{
+  "success":true,
+  "data":[
+    {
+      "id": 1,
+      "name": "Subuh",
+      "time_formated": "04:26"
+    },
+    {
+      "id": 2,
+      "name": "Terbit",
+      "time_formated": "05:43"
+    },
+    {
+      "id": 3,
+      "name": "Dzuhur",
+      "time_formated": "11:46"
+    },
+    {
+      "id": 4,
+      "name": "Asar",
+      "time_formated": "14:57"
+    },
+    {
+      "id": 5,
+      "name": "Maghrib",
+      "time_formated": "17:49"
+    },
+    {
+      "id": 6,
+      "name": "Isya",
+      "time_formated": "18:58"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+#banner {
+  .bgBanner {
+    .boxBanner {
+      margin-bottom: 10px;
+      position: relative;
+      img {
+        width: 100%;
+      }
+      .boxTimer {
+      	position: absolute;
+	    top: 28%;
+	    left: 10px;
+      	.timer {
+      		p {
+      			margin-bottom: 0px;
+			    font-weight: bold;
+			    color: $smooth-color;
+			    font-size: 23px;
+      		}
+      	}
+      	.nextTimer {
+      		margin-top: -3px;
+      		p {
+      			color: $smooth-color;
+      			font-size: 12.5px;
+    			margin-bottom: 0px;
+      		}
+      	}
+      }
+    }
+  }
+}

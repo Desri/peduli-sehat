@@ -1,0 +1,35 @@
+#searchJob {
+  @media only screen and (min-width : $portrait) and (max-width : $landscape) {
+    display: none;
+  }
+  .row {
+    padding: 0px 40px;
+  }
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background: $bg-search;
+  box-shadow: 0 5px 10px hsla(0,0%,87.1%,.5);
+  .ant-form-item {
+    margin: 5px 0px;
+    .ant-select-selection {
+      border-radius: 10px;
+    }
+    .ant-input {
+      border-radius: 10px;
+    }
+    button {
+      width: 100%;
+      border-radius: 10px;
+      border-color: $black-color;
+      background-color: $black-color;
+      &[disabled] {
+        color: $bg-search;
+      }
+      &:hover {
+        color: $black-color;
+        background-color: $bg-search;
+      }
+    }
+  }
+}
